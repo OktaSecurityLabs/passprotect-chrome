@@ -1,6 +1,6 @@
 {
   "name": "passprotect-chrome",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Protect your user's passwords.",
   "dependencies": {
     "js-sha1": "^0.6.0"
