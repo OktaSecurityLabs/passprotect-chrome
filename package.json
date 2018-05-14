@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build": "rm -rf dist; webpack --config webpack.config.js",
-    "publish": "echo 'not implemented'"
+    "publish": "rm passprotect.zip; npm run build; zip passprotect.zip dist/"
   },
   "repository": {
     "type": "git",
