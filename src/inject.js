@@ -39,7 +39,7 @@ var PASS_PROTECT_PASSWORD_CHECK_URI = "https://api.pwnedpasswords.com/range/";
 
 /**
  * Format numbers in a nice, human-readable fashion =)
- * 
+ *
  * Stolen from: https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript
  */
 function numberFormatter(number, fractionDigits = 0, thousandSeperator = ',', fractionSeperator = '.') {
