@@ -63,9 +63,9 @@ friendly!
 
 ## Changelog
 
-**???**: Not yet released.
+**0.1.3**: May 19, 2018.
 
-- Prepping for public release.
+- Prepped for public release.
 
 **0.1.2**: May 16, 2018
 
