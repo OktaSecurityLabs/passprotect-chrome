@@ -1,7 +1,7 @@
 {
   "name": "passprotect-chrome",
-  "version": "0.1.2",
-  "description": "Protect your user's passwords.",
+  "version": "0.1.3",
+  "description": "Stop using bad passwords.",
   "dependencies": {
     "js-sha1": "^0.6.0"
   },
@@ -13,12 +13,11 @@
     "webpack-cli": "^2.1.3"
   },
   "scripts": {
-    "build": "rm -rf dist; webpack --config webpack.config.js",
-    "publish": "rm passprotect.zip; npm run build; zip -r passprotect.zip dist/"
+    "build": "rm -rf dist; webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okta/passprotect-js.git"
+    "url": "git+https://github.com/oktadeveloper/passprotect-chrome.git"
   },
   "keywords": [
     "password",
@@ -32,7 +31,7 @@
   "author": "Randall Degges",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okta/passprotect-chrome/issues"
+    "url": "https://github.com/oktadeveloper/passprotect-chrome/issues"
   },
-  "homepage": "https://github.com/okta/passprotect-chrome#readme"
+  "homepage": "https://github.com/oktadeveloper/passprotect-chrome#readme"
 }
