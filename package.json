@@ -1,6 +1,6 @@
 {
   "name": "passprotect-chrome",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Stop using bad passwords.",
   "dependencies": {
     "js-sha1": "^0.6.0"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oktadeveloper/passprotect-chrome.git"
+    "url": "git+https://github.com/oktasecuritylabs/passprotect-chrome.git"
   },
   "keywords": [
     "password",
@@ -32,7 +32,7 @@
   "author": "Randall Degges",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oktadeveloper/passprotect-chrome/issues"
+    "url": "https://github.com/oktasecuritylabs/passprotect-chrome/issues"
   },
-  "homepage": "https://github.com/oktadeveloper/passprotect-chrome#readme"
+  "homepage": "https://github.com/oktasecuritylabs/passprotect-chrome#readme"
 }

@@ -2,7 +2,7 @@
 
 **Stop using bad passwords.**
 
-![PassProtect demo](https://github.com/oktadeveloper/passprotect-chrome/raw/master/assets/passprotect.gif)
+![PassProtect demo](https://github.com/oktasecuritylabs/passprotect-chrome/raw/master/assets/passprotect.gif)
 
 
 ## What is PassProtect?
@@ -48,12 +48,12 @@ to safely communicate your sensitive data over the internet without risk.
 PassProtect is also completely free, open source, and maintained by [Randall
 Degges](https://twitter.com/rdegges). If you want to audit the source, or have
 ideas about how to do things better, please open a
-[GitHub issue](https://github.com/oktadeveloper/passprotect-js) or [email me](mailto:randall.degges@okta.com) directly.
+[GitHub issue](https://github.com/oktasecuritylabs/passprotect-js) or [email me](mailto:randall.degges@okta.com) directly.
 
 
 ## Are You a Developer?
 
-Awesome! You might enjoy checking out [passprotect-js](https://github.com/oktadeveloper/passprotect-js), it's a
+Awesome! You might enjoy checking out [passprotect-js](https://github.com/oktasecuritylabs/passprotect-js), it's a
 developer library that provides the same functionality for websites you're
 building.
 
