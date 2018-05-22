@@ -100,7 +100,7 @@ function protectInputs() {
   for (var i = 0; i < inputs.length; i++) {
     switch (inputs[i].type) {
       case "email":
-        inputs[i].addEventListener("change", protectEmailInput);
+        //inputs[i].addEventListener("change", protectEmailInput);
         break;
       case "password":
         inputs[i].addEventListener("change", protectPasswordInput);
@@ -108,20 +108,20 @@ function protectInputs() {
     }
   }
 
-  inputs = document.querySelectorAll("input[type='text']");
-  for (var i = 0; i < inputs.length; i++) {
-    if (inputs[i].name.toLowerCase().indexOf("email") !== -1) {
-      return inputs[i].addEventListener("change", protectEmailInput);
-    }
+  //inputs = document.querySelectorAll("input[type='text']");
+  //for (var i = 0; i < inputs.length; i++) {
+  //  if (inputs[i].name.toLowerCase().indexOf("email") !== -1) {
+  //    return inputs[i].addEventListener("change", protectEmailInput);
+  //  }
 
-    if (inputs[i].id.toLowerCase().indexOf("email") !== -1) {
-      return inputs[i].addEventListener("change", protectEmailInput);
-    }
+  //  if (inputs[i].id.toLowerCase().indexOf("email") !== -1) {
+  //    return inputs[i].addEventListener("change", protectEmailInput);
+  //  }
 
-    if (inputs[i].placeholder.toLowerCase().indexOf("email") !== -1) {
-      return inputs[i].addEventListener("change", protectEmailInput);
-    }
-  }
+  //  if (inputs[i].placeholder.toLowerCase().indexOf("email") !== -1) {
+  //    return inputs[i].addEventListener("change", protectEmailInput);
+  //  }
+  //}
 }
 
 
