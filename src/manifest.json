@@ -1,6 +1,6 @@
 {
   "name": "PassProtect",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Stop using bad passwords. PassProtect alerts you about breached credentials. Powered by \"Have I Been Pwned?\".",
   "manifest_version": 2,
   "icons": {

@@ -1,6 +1,6 @@
 {
   "name": "passprotect-chrome",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Stop using bad passwords.",
   "dependencies": {
     "js-sha1": "^0.6.0"
