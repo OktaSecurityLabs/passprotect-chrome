@@ -65,6 +65,10 @@ friendly!
 
 ## Changelog
 
+**0.1.7**: May 22, 2018.
+
+- Improving form binding.
+
 **0.1.6**: May 22, 2018.
 
 - Removing redundant code.
