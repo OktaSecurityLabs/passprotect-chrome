@@ -68,6 +68,7 @@ friendly!
 **0.1.6**: May 22, 2018.
 
 - Removing redundant code.
+- Making code more portable.
 
 **0.1.5**: May 21, 2018.
 
