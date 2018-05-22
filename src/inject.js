@@ -165,14 +165,6 @@ function protectEmailInput(evt) {
           });
         }
       }
-
-      // If there's a bad email, we'll enable the alert icon, otherwise we'll
-      // use our normal extension icon.
-      if (badEmailDetected) {
-        chrome.runtime.sendMessage({ enableAlert: true });
-      } else {
-        chrome.runtime.sendMessage({ disableAlert: true });
-      }
     };
   };
 
@@ -219,9 +211,6 @@ function protectPasswordInput(evt) {
   var hashPrefix = hash.slice(0, 5);
   var shortHash = hash.slice(5);
   var xmlHttp = new XMLHttpRequest();
-  var badPassDetected = false;
-
-  chrome.runtime.sendMessage({ test: true });
 
   xmlHttp.onreadystatechange = function() {
     if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
@@ -231,7 +220,6 @@ function protectPasswordInput(evt) {
         var data = resp[i].split(":");
 
         if (data[0].indexOf(shortHash) === 0) {
-          badPassDetected = true;
           var message = [
             '<p>The password you just entered has been found in <b>' + numberFormatter(parseInt(data[1]))  + '</b> data breaches. <b>This password is not safe to use</b>.</p>',
             '<p>This means attackers can easily find this password online and will often try to access accounts with it.</p>',
@@ -254,14 +242,6 @@ function protectPasswordInput(evt) {
             }
           });
         }
-      }
-
-      // If there's a bad password, we'll enable the alert icon, otherwise we'll
-      // use our normal extension icon.
-      if (badPassDetected) {
-        chrome.runtime.sendMessage({ enableAlert: true });
-      } else {
-        chrome.runtime.sendMessage({ disableAlert: true });
       }
     }
   };
