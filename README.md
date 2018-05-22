@@ -65,24 +65,28 @@ friendly!
 
 ## Changelog
 
-**0.1.7**: May 22, 2018.
+**0.1.8**: May 22, 2018
+
+- Removing email functionality for now.
+
+**0.1.7**: May 22, 2018
 
 - Improving form binding.
 
-**0.1.6**: May 22, 2018.
+**0.1.6**: May 22, 2018
 
 - Removing redundant code.
 - Making code more portable.
 
-**0.1.5**: May 21, 2018.
+**0.1.5**: May 21, 2018
 
 - Fixed some minor packaging issues.
 
-**0.1.4**: May 21, 2018.
+**0.1.4**: May 21, 2018
 
 - Fixed some minor packaging issues.
 -
-**0.1.3**: May 19, 2018.
+**0.1.3**: May 19, 2018
 
 - Prepped for public release.
 
