@@ -139,7 +139,7 @@ function getHost() {
 function protectEmailInput(evt) {
   var host = getHost();
   var xmlHttp = new XMLHttpRequest();
-  var inputValue = evt.srcElement.value;
+  var inputValue = evt.currentTarget.value;
   var badEmailDetected = false;
 
   xmlHttp.onreadystatechange = function() {
@@ -206,7 +206,7 @@ function getPasswordHash(password) {
  * @param {object} evt - The DOM event object.
  */
 function protectPasswordInput(evt) {
-  var inputValue = evt.srcElement.value;
+  var inputValue = evt.currentTarget.value;
   var hash = sha1(inputValue).toUpperCase();
   var hashPrefix = hash.slice(0, 5);
   var shortHash = hash.slice(5);
