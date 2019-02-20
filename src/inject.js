@@ -100,7 +100,7 @@ function protectInputs() {
     'input[type="text"][id*="email"i], ' +
     'input[type="text"][placeholder*="email"i], ' +
     'input[type="email"], ' +
-    'input[type="password"]'
+    'input[type="password"]:not([maxlength="1"])'
   );
 
   for (var i = 0; i < inputs.length; i++) {
