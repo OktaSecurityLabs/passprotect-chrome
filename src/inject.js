@@ -33,7 +33,7 @@ vex.dialog.buttons.YES.text = "I Understand";
  * Globals
  */
 var PASS_PROTECT_EMAIL_CHECK_URI = "https://haveibeenpwned.com/api/v2/breachedaccount/";
-var PASS_PROTECT_PASTE_CHECK_URI = "https://haveibeenpwned.com/api/v2/pasteaccountaccount/";
+var PASS_PROTECT_PASTE_CHECK_URI = "https://haveibeenpwned.com/api/v2/pasteaccount/";
 var PASS_PROTECT_PASSWORD_CHECK_URI = "https://api.pwnedpasswords.com/range/";
 
 
