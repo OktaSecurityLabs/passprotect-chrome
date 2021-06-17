@@ -1,10 +1,10 @@
 const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
-
 module.exports = {
+  mode: 'production',
   entry: {
-    inject: "./src/inject.js"
+    inject: './src/inject.js',
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -13,19 +13,20 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [
-          "style-loader",
-          "css-loader"
-        ]
-      }
+          'style-loader',
+          'css-loader'
+        ],
+      },
     ]
   },
-  mode: "production",
   plugins: [
-    new CopyPlugin([
-      { from: './images', to: 'images' },
-      { from: './src/manifest.json', to: 'manifest.json' }
-    ])
-  ]
+    new CopyPlugin({
+      patterns: [
+        { from: './images', to: 'images' },
+        { from: './src/manifest.json', to: 'manifest.json' }
+      ],
+    }),
+  ],
 };
