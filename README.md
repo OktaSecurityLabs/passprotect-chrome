@@ -65,6 +65,10 @@ friendly!
 
 ## Changelog
 
+**0.1.9**: June 16, 2021
+
+- Applied security updates
+
 **0.1.8**: May 22, 2018
 
 - Removing email functionality for now.
